@@ -1,0 +1,16 @@
+version: 1.0
+name: dayplz
+author: tomerthegreat
+main: net.intercraftmc.dayplz.Main
+commands:
+  day:
+    description: Makes a vote for daytime.
+    aliases: [d]
+    
+  vote:
+    description: Casts a vote for the time to stay or set to day. (Usage /vote yes or /vote no
+    aliases: [v]
+    
+  votestats:
+    description: Shows how many votes there are.
+    aliases: [vs]
